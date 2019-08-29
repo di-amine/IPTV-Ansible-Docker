@@ -1,0 +1,5 @@
+- name: Installation et configuration xtream code panel
+  hosts: iptv
+  become : yes
+  roles:
+    - iptvserver
